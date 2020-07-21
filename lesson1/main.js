@@ -1,19 +1,19 @@
 ;
-import ToyReact from './ToyReact-vdom.js';
+import ToyReact, {Component} from './ToyReact-vdom.js';
 
-// class MyComponent extends Component {
-//   render() {
-//     return (
-//       <div>
-//         <span>hi</span>
-//         <span>paul</span>
-//         <span>!!!</span>
-//       </div>
-//     )
-//   }
-// }
+class MyComponent extends Component {
+  render() {
+    return (
+      <div>
+        <span>hi</span>
+        <span>paul</span>
+        <span>!!!</span>
+      </div>
+    )
+  }
+}
 
-// ToyReact.render(<MyComponent id="ida" />, document.body);
+ToyReact.render(<MyComponent id="ida" />, document.body);
 
 // import { ToyReact } from './ToyReact-dom.js';
 

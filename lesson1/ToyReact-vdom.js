@@ -11,7 +11,7 @@ class ElementWrapper {
     vchild.mountTo(this.root);
   }
   mountTo(parent) {
-    parent.apendChild(this.root);
+    parent.appendChild(this.root);
   }
 }
 
